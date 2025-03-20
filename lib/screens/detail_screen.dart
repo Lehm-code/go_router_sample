@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  static String get routeName => 'home';
+class DetailScreen extends StatelessWidget {
+  const DetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Home")),
+      appBar: AppBar(title: const Text("Detail")),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            context.go('/detail');
+            context.go('/about');
           },
           child: const Text(
-            "Go To Detail Screen",
+            "Go To About Screen",
           ),
         ),
       ),
