@@ -17,7 +17,15 @@ class HomeScreen extends StatelessWidget {
                 context.go('/detail', extra: 'Flutter user');
               },
               child: const Text(
-                "Detail画面へ",
+                "Detail画面へ(値渡し1)",
+              ),
+          ),
+          ElevatedButton(
+              onPressed: () {
+                context.go('/detail2/Flutter user/16059');
+              },
+              child: const Text(
+                "Detail画面へ(値渡し2)",
               ),
           ),
           ElevatedButton(
