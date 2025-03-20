@@ -14,7 +14,7 @@ class SettingScreen extends StatelessWidget {
             context.go('/');
           },
           child: const Text(
-            'Go To Home Screen',
+            'Home画面へ',
           ),
         ),
       ),

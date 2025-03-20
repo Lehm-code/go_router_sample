@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(     // MaterialApp.routerなので注意
       title: 'Go Router Sample',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
       // 以下３行を追加
